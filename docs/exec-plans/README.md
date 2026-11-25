@@ -16,6 +16,7 @@ Finished plans (Progress complete, validation green, review loop at a terminal s
 
 - [Make the Tilda skill portable](completed/portable-tilda-skill.md) — remove project assumptions and validate the standalone workflow.
 - [Add a public README](completed/add-repository-readme.md) — document installation and first use.
+- [Clarify third-party content handling](completed/clarify-third-party-content.md) — keep visitor and imported text within the authorized task.
 
 <!-- Add links as plans are completed:
 - [<kebab-case-name>](completed/<kebab-case-name>.md) — <one-line purpose>
