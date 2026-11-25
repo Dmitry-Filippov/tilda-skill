@@ -6,6 +6,7 @@ This project develops and prepares a reusable agent skill for work on Tilda. It 
 
 | Change area | Start here | Relevant tests/checks |
 | --- | --- | --- |
+| Public overview, installation, or first-use examples | [`README.md`](../README.md) | Check links and confirm that the documented source exposes `tilda` |
 | Tilda skill behavior, MCP workflow, or safety instructions | [`tilda/SKILL.md`](../tilda/SKILL.md), then [design](design.md) for the trust boundaries | [Skill checks and scenarios](tests.md) |
 | Skill packaging and release scope | [Product](product.md), [conventions](conventions.md), and [`tilda/SKILL.md`](../tilda/SKILL.md) | Review the release contents and validate discovery in the intended client; see [testing](tests.md) |
 | Agent development setup or planning | [`AGENTS.md`](../AGENTS.md), [`opencode.json`](../opencode.json), and the [ExecPlans index](exec-plans/README.md) | Validate config syntax, local discovery, and documentation links |
@@ -17,6 +18,7 @@ expand if it is incomplete or stale, then correct the affected route.
 
 ```text
 tilda-skill/
+├── README.md                 # Public overview, installation, and examples
 ├── tilda/SKILL.md            # Canonical skill source imported from another project
 ├── AGENTS.md                 # Development instructions for this project
 ├── PLANS.md                  # ExecPlans methodology
