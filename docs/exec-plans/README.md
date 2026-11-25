@@ -14,6 +14,8 @@ Plans being implemented live in `docs/exec-plans/active/`.
 
 Finished plans (Progress complete, validation green, review loop at a terminal state) live in `docs/exec-plans/completed/`.
 
+- [Make the Tilda skill portable](completed/portable-tilda-skill.md) — remove project assumptions and validate the standalone workflow.
+
 <!-- Add links as plans are completed:
 - [<kebab-case-name>](completed/<kebab-case-name>.md) — <one-line purpose>
 -->

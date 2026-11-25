@@ -22,4 +22,4 @@ Site owners, designers, and developers working with an AI agent on Tilda, includ
 
 ## Technical facts
 
-The release source is [`tilda/SKILL.md`](../tilda/SKILL.md). Live actions require a compatible Tilda MCP connection, the necessary site permissions, and explicit task scope. The distribution channel and live test environment are not established yet.
+The release is the `tilda/` directory containing [`SKILL.md`](../tilda/SKILL.md) in the [Agent Skills format](https://agentskills.io/specification). Copy the directory into a supported client's local skill directory (for example, `.agents/skills/` for a project in OpenCode or Codex); clients without skill discovery can be given the Markdown as instructions. Live actions require the relevant tools from the official Tilda MCP connection, site permissions, and explicit task scope. The distribution channel and live test environment are not established yet.
