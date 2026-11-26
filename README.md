@@ -5,7 +5,7 @@ An [Agent Skill](https://agentskills.io/) for working with Tilda Publishing. Get
 ## Install
 
 ```sh
-npx skills add Dmitry-Filippov/-tilda-skill --skill tilda
+npx skills add Dmitry-Filippov/tilda-skill --skill tilda
 ```
 
 To install manually, copy the [`tilda/`](tilda/) directory into your client's skills folder. In an OpenCode project, the resulting path is `.agents/skills/tilda/SKILL.md`; other clients may use a different folder.
